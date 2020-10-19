@@ -1,0 +1,59 @@
+/* default browser styles reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* main colors */
+:root{
+  /* primary colors */
+  --primaryDarkBlue:hsl(233,26%,24%);
+  --primaryLimeGreen:hsl(136,65%,51%);
+  --primaryBrightCyan:hsl(192,70%,51%);
+  /* neutral colors */
+  --grayishBlue:hsl(233,8%,62%);
+  --lightGrayishBlue:hsl(220,16%,96%);
+  --veryLightGray:hsl(0,0%,98%);
+  --white:hsl(0,0%,100%);
+}
+/* to attain smooth scrool */
+html{
+  scroll-behavior: smooth;
+}
+.container{
+  max-width:1190px;
+}
+/* styles for navigation bar */
+.navigation{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:10vh;
+  background: cornflowerblue;
+  width:100%;
+  margin:auto 0;
+}
+.logo-container{
+  /* width:100%; */
+  margin:0 1%;
+}
+.nav-links-container{
+  /* width:100%; */
+  background: brown;
+}
+.nav-link{
+  list-style-type:none;
+  display: inline-block;
+  margin:2%;
+}
+.nav-link a{
+  text-decoration:none;
+  color:var(--grayishBlue);
+}
+.request-invite-btn-container-nav{
+  /* width:100%; */
+  display: flex;
+  justify-content: center;
+  /* margin:0 auto; */
+}
+/* end of styles for navigation bar */
