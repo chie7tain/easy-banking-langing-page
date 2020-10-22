@@ -33,6 +33,9 @@ body{
 /* styles for main container */
 .container{
   background:var(--lightGrayishBlue);
+  width:1366px;
+  overflow-x: hidden;
+  margin:auto;
 }
 /* end of styles for main container */
 
@@ -259,23 +262,31 @@ body{
   width:100%;
 }
 .article-author-heading-preview-container > div{
-  margin-bottom:1em;
+  margin-bottom:.8em;
+  width:100%;
 }
 .article-author{
   color:var(--grayishBlue);
   font-weight: 300;
+  font-size: .8rem;
 }
 .article-heading{
   color:var(--primaryDarkBlue);
-  font-weight: 400;
+  font-weight: 500;
   transition: var(--mainTransition);
+  font-size:1rem;
 }
 .article-heading:hover{
   color:var(--primaryLimeGreen);
 }
+.article-preview-text-container{
+  display:flex;
+  width:100%;
+}
 .article-preview-text{
   color:var(--primaryDarkBlue);
   font-weight: 300;
+  font-size:.8rem;
 }
 /* end of style for articles container */
 /* ========================================== */
