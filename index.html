@@ -19,7 +19,7 @@
 <body>
   <!-- ======================== -->
   <!-- main section -->
-  <div class="container">
+  <section class="container">
     <!-- ================== -->
     <!-- navigation -->
     <nav class="navigation">
@@ -28,23 +28,25 @@
       </div>
       <!-- nav links container -->
       <div class="nav-links-container">
-        <ul>
-          <li class="nav-link"><a href="">Home</a></li>
-          <li class="nav-link"><a href="">About</a></li>
-          <li class="nav-link"><a href="">Connect</a></li>
-          <li class="nav-link"><a href="">Blog</a></li>
-          <li class="nav-link"><a href="">Careers</a></li>
-        </ul>
+        <div class="nav-link"><a href="">Home</a></div>
+        <div class="nav-link"><a href="">About</a></div>
+        <div class="nav-link"><a href="">Contact</a></div>
+        <div class="nav-link"><a href="">Blog</a></div>
+        <div class="nav-link"><a href="">Careers</a></div>
       </div>
       <!-- end of nav links container -->
       <!-- request invite button -->
       <div class="request-invite-btn-container-nav">
-        <button class="request-invite">Request invite</button>
+        <button class="request-invite-btn">Request invite</button>
       </div>
       <!-- end of request invite button -->
     </nav>
     <!-- end of navigatiion -->
     <!-- ==================== -->
+    <!-- ==================================== -->
+    <!-- main content -->
+    <section class="main-content">
+
     <!-- ========================= -->
     <!-- banner and background img container -->
     <section class="banner-and-background-img-container">
@@ -55,15 +57,15 @@
         </p>
         <!-- request invite button -->
         <div class="request-invite-btn-container">
-          <button class="request-invite">Request invite</button>
+          <button class="request-invite-btn">Request invite</button>
         </div>
         <!-- end of request invite button -->
       </div>
       <div class="background-image-container">
-        <div class="background-img-background-container">
+        <div class="mockups-background-container">
           <img src="./images/bg-intro-desktop.svg" alt="">
         </div>
-        <div class="background-image-container">
+        <div class="device-mockups-image-container">
           <img src="./images/image-mockups.png" alt="">
         </div>
       </div>
@@ -72,9 +74,9 @@
     <!-- ================================ -->
       <!-- list of services container -->
       <section class="service-heading-and-service-container">
-        <div class="service-heading-container">
-          <h2 class="service-heading">Why choose Easybank?</h2>
-          <p class="service-text">
+        <div class="service-banner-container">
+          <h2 class="service-banner-heading">Why choose Easybank?</h2>
+          <p class="service-banner-text">
             We leverage Open Banking to turn your bank account into your financial hub.
             Control your finances like never before.
           </p>
@@ -139,8 +141,15 @@
       <!-- ============================= -->
       <!-- ============================ -->
       <!-- articles container -->
-      <section class="articles-container">
+      <section class="articles-section">
+        <div class="articles-heading-container">
+          <h2 class="articles-heading">
+            Latest Articles
+          </h2>
+        </div>
         <!-- ========== -->
+        <!-- articles container -->
+        <div class="articles-container">
         <!-- individual article -->
         <div class="individual-article">
           <div class="article-img-container">
@@ -225,12 +234,17 @@
         </div>
         <!-- end of individual article -->
         <!-- ====================== -->
+      </div>
+      <!-- end of articles container -->
       </section>
       <!-- end of articles container -->
       <!-- ============================== -->
+      </section>
+      <!-- end of main section -->
+      <!-- ========================================== -->
       <!-- ============================= -->
-      <!-- fooret= section  -->
-      <section class="footer-container">
+      <!-- footer section  -->
+      <section class="footer-section">
         <div class="logo-and-social-links-container">
           <div class="logo-container">
             <img src="./images/logo.svg" alt="company logo" class="footer-logo">
@@ -263,7 +277,7 @@
       <!-- end oj footer section -->
       <!-- ============================== -->
 
-  </div>
+  </section>
   <!-- ========================== -->
   <!-- end of main section -->
   <!-- ======================= -->
