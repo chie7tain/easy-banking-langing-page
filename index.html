@@ -10,6 +10,9 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/52f2afaff9.js" crossorigin="anonymous"></script>
+    <!--end of font awesome  -->
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- styles sheet -->
@@ -28,10 +31,10 @@
       </div>
       <!-- nav links container -->
       <div class="nav-links-container">
-        <div class="nav-link"><a href="">Home</a></div>
-        <div class="nav-link"><a href="">About</a></div>
-        <div class="nav-link"><a href="">Contact</a></div>
-        <div class="nav-link"><a href="">Blog</a></div>
+        <div class="nav-link"><a href="index.html">Home</a></div>
+        <div class="nav-link"><a href="#about">About</a></div>
+        <div class="nav-link"><a href="#footer">Contact</a></div>
+        <div class="nav-link"><a href="#articles">Blog</a></div>
         <div class="nav-link"><a href="">Careers</a></div>
       </div>
       <!-- end of nav links container -->
@@ -73,7 +76,7 @@
     <!-- end of background and banner container -->
     <!-- ================================ -->
       <!-- list of services container -->
-      <section class="service-heading-and-service-container">
+      <section id="about" class="service-heading-and-service-container">
         <div class="service-banner-container">
           <h2 class="service-banner-heading">Why choose Easybank?</h2>
           <p class="service-banner-text">
@@ -141,7 +144,7 @@
       <!-- ============================= -->
       <!-- ============================ -->
       <!-- articles container -->
-      <section class="articles-section">
+      <section id="articles" class="articles-section">
         <div class="articles-heading-container">
           <h2 class="articles-heading">
             Latest Articles
@@ -244,30 +247,42 @@
       <!-- ========================================== -->
       <!-- ============================= -->
       <!-- footer section  -->
-      <section class="footer-section">
+      <section id="footer" class="footer-section">
         <div class="logo-and-social-links-container">
           <div class="logo-container">
             <img src="./images/logo.svg" alt="company logo" class="footer-logo">
           </div>
           <div class="social-links-container">
-            <img src="./images/icon-facebook.svg" alt="facebook icon" class="social-icon">
-            <img src="./images/icon-youtube.svg" alt="youtube icon" class="social-icon">
-            <img src="./images/icon-twitter.svg" alt="twitter icon" class="social-icon">
-            <img src="./images/icon-pinterest.svg" alt="pinterest icon" class="social-icon">
-            <img src="./images/icon-instagram.svg" alt="instagram icon" class="social-icon">
+            <a href="#">
+              <i class="fa fa-facebook-square social-icon" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-youtube-play social-icon" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter social-icon" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-pinterest social-icon" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-instagram social-icon" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
-        <div class="important-links-container">
-          <a href="" class="important-link">About Us</a>
-          <a href="" class="important-link">Contact</a>
-          <a href="" class="important-link">Blog</a>
-          <a href="" class="important-link">Careers</a>
-          <a href="" class="important-link">Support</a>
-          <a href="" class="important-link">Privacy Policy</a>
+        <div class="footer-links-container">
+          <a href="" class="footer-link">About Us</a>
+          <a href="" class="footer-link">Contact</a>
+          <a href="" class="footer-link">Blog</a>
+          <a href="" class="footer-link">Careers</a>
+          <a href="" class="footer-link">Support</a>
+          <a href="" class="footer-link">Privacy Policy</a>
         </div>
         <!-- request invite button -->
         <div class="request-invite-btn-container-copyright-info">
-          <button class="request-invite">Request invite</button>
+          <div class="request-invite-btn-container">
+            <button class="request-invite-btn">Request invite</button>
+          </div>
           <div class="copy-container">
             <span class="copy-icon">&copy;</span>Easybank. All Rights Reserved.
           </div>

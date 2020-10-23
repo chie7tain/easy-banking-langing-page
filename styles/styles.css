@@ -34,7 +34,7 @@ body{
 .container{
   background:var(--lightGrayishBlue);
   width:1366px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin:auto;
 }
 /* end of styles for main container */
@@ -88,7 +88,7 @@ body{
   /* margin:0 auto; */
 }
 .request-invite-btn{
-  padding:1em 1.7em;
+  padding:.9em 1.7em;
   border:none;
   letter-spacing: var(--mainSpacing);
   border-radius: 80px;
@@ -111,7 +111,7 @@ body{
   padding-right:5em;
   padding-left:5em;
   margin-bottom:4em;
-  z-index: 1;
+  /* z-index: 1; */
 }
 /* end of style for main content section */
 /* ======================================== */
@@ -150,12 +150,12 @@ body{
   position:absolute;
   right:-25em;
   top:-8em;
-  z-index: 2;
+  z-index: 1;
 }
 .device-mockups-image-container{
  position:relative;
  right:-15em;
-  z-index:3;
+  z-index:2;
 }
 /* end of styles for banner and image background */
 /* ========================================== */
@@ -295,7 +295,59 @@ body{
   background:var(--primaryDarkBlue);
   width: 100%;
   display: flex;
+  justify-content:space-between;
   height: 20vh;
+  padding: 0px 7em;
+}
+
+.logo-and-social-links-container{
+  display:flex;
+  flex-direction: column;
+  height:inherit;
+  justify-content: space-around;
+}
+.footer-logo{
+  background: white;
+}
+.social-links-container{
+  display:flex;
+  justify-content: space-around;
+}
+.social-icon{
+  transition: var(--mainTransition);
+  color:var(--white);
+  /* background:var(--white); */
+}
+
+.social-icon:hover{
+  color:var(--primaryLimeGreen);
+  transform:translateY(-10px);
+}
+
+.footer-links-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width:40%;
+  /* align-items:flex-start; */
+}
+
+.footer-link{
+  text-decoration:none;
+  color:var(--white);
+  margin:.7em;
+  align-self: flex-start;
+}
+.request-invite-btn-container-copyright-info{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: flex-end;
+}
+.copy-container{
+  color:var(--white);
 }
 /*end of styles for footer container */
 /* ================================= */
