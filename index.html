@@ -16,7 +16,11 @@
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- styles sheet -->
+
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/desktop.css">
+  <link rel="stylesheet" href="./styles/tablet.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
   <!-- end of style sheets -->
 </head>
 <body>
@@ -25,7 +29,7 @@
   <section class="container">
     <!-- ================== -->
     <!-- navigation -->
-    <nav class="navigation">
+    <nav class="nav-bar">
       <div class="logo-container">
        <img src="./images/logo.svg" alt="easy-banking-logo">
       </div>
@@ -36,6 +40,11 @@
         <div class="nav-link"><a href="#footer">Contact</a></div>
         <div class="nav-link"><a href="#articles">Blog</a></div>
         <div class="nav-link"><a href="">Careers</a></div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
       <!-- end of nav links container -->
       <!-- request invite button -->
@@ -66,10 +75,10 @@
       </div>
       <div class="background-image-container">
         <div class="mockups-background-container">
-          <img src="./images/bg-intro-desktop.svg" alt="">
+          <!-- <img src="./images/bg-intro-desktop.svg" alt="" class="mockup-background-img"> -->
         </div>
         <div class="device-mockups-image-container">
-          <img src="./images/image-mockups.png" alt="">
+          <img src="./images/image-mockups.png" alt="" class="device-mockup-img">
         </div>
       </div>
     </section>
@@ -304,6 +313,8 @@
     Coded by <a href="#">Chie7tain</a>.
   </div>
   <!-- javascript -->
+  <!-- <script src="app.js"></script> -->
+  <script src="./scripts/responsiveNavBar.js"></script>
   <!-- end of javascript -->
 </body>
 </html>

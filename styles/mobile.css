@@ -1,0 +1,47 @@
+/* main colors */
+:root{
+  /* primary colors */
+  --primaryDarkBlue:hsl(233,26%,24%);
+  --primaryLimeGreen:hsl(136,65%,51%);
+  --primaryBrightCyan:hsl(192,70%,51%);
+  /* neutral colors */
+  --grayishBlue:hsl(233,8%,62%);
+  --lightGrayishBlue:hsl(220,16%,96%);
+  --veryLightGray:hsl(0,0%,98%);
+  --white:hsl(0,0%,100%);
+  /* addins*/
+  --mainTransition:all 0.2s ease-in;
+  --mainSpacing:0.1rem;
+  /* -o-transition:all 0.3s linear ;
+  -moz-transition:all 0.3s linear ;
+  -webkit-transition:all 0.3s linear ; */
+}
+@media only screen and (max-width: 400px){
+  nav{
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .nav-link{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-around; */
+    /* height: 20vh; */
+  }
+  .nav-link a{
+    text-decoration: none;
+    color:var(--primaryDarkBlue);
+  }
+
+  .burger div{
+    width:40px;
+    margin-bottom: 5px;
+    height:5px;
+   background:var(--primaryDarkBlue);
+  }
+  .request-invite-btn-container-nav{
+    display: none;
+  }
+  /* end mobile styles  */
+  /* ===================================== */
+}
