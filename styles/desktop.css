@@ -5,7 +5,7 @@
   margin:auto;
 } */
   /* styles for navigation bar */
-.navigation{
+.nav-bar{
   display:flex;
   justify-content: space-around;
   align-items: center;
