@@ -87,7 +87,7 @@
   /* align-items:center; */
 }
 .banner-container{
-  width:50%;
+  width:40%;
   display:flex;
   flex-direction:column;
   /* align-items:center; */
@@ -106,7 +106,7 @@
 }
 /* ================= */
 .background-image-container{
-  width:50%;
+  width:70%;
   position: relative;
   right:0px;
   /* border:1px solid; */
@@ -123,16 +123,11 @@
   .mockup-background-img{
     width:100%;
     position: absolute;
-    right:-5em;
-  }
-   .mockup-background-img{
-    width:100%;
-    position: absolute;
-    right:-5em;
+    right:-6em;
   }
 .device-mockups-image-container{
  position: absolute;
- width:100%;
+ width:70%;
  right:0px;
   z-index:2;
 }
@@ -140,7 +135,7 @@
     /* background: url("../images/bg-intro-desktop.svg") center/cover no-repeat; */
     position: absolute;
     right:-30px;
-    width:70%;
+    width:100%;
   }
   .request-invite-btn-container{
   margin-top:.5em;
