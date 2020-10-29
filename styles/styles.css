@@ -42,4 +42,31 @@ body{
   /* margin:auto; */
 }
 /* end of styles for main container */
+/* styles for logo */
+.logo{
+  color:var(--primaryDarkBlue);
+  letter-spacing: 1.5;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: 'Shrikhand', cursive;
+}
+.logo a{
+  color:var(--primaryBrightCyan);
+  text-decoration: none;
+}
+.footer-logo{
+  background:var(--white);
+  /* letter-spacing: 1.5;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: 'Shrikhand', cursive; */
+}
+/* .footer-logo a{
+  color:var(--grayishBlue);
+  text-decoration: none;
+}  */
+/* end of styles for logo */
+/* styles for attribution */
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
 
